@@ -1,0 +1,378 @@
+body {
+  background-color: #AEE8F5;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+  top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+input{
+    padding: 10px 30px;
+    outline-style: none;
+    border-radius: 4px;
+  display: block;
+  border: 1px solid gray;
+  width: 100%;
+}
+.modal-container2{
+  width: 90%;
+  background-color: white;
+  padding: 30px 60px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 4px 4px 20px rgba(0,0,0,0.4);
+}
+.modal-container2.hide {
+  display: none;
+}
+
+h2 {
+  padding-bottom: 20px;
+ 
+}
+.h2-contain{
+  text-align: center;
+}
+label{
+  padding-bottom: 5px;
+}
+
+select{
+  padding: 10px 30px;
+  background-color: white;
+  outline-style: none;
+  width: 100%;
+  border-radius: 4px;
+}
+#email{
+  border: 1px solid gray;
+}
+#date{
+  background-color: white;
+  width: 100%;
+  border: 1px solid gray;
+}
+.form-input.dobs{
+  margin-top: -18px;
+}
+.form-input.nums{
+  margin-top: -12px;
+}
+
+.form-input.cn{
+  margin-top: -10px;
+}
+
+.register-btn{
+  padding: 10px 30px;
+  background-color: #1363DF;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  border-style: none;
+  outline-style: none;
+}
+
+.register-btn-div{
+  padding-top: 30px;
+}
+
+.register-btn:hover{
+  background-color: #3AB0FF;
+}
+.modal-container3{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+.modal-container3.show{
+  pointer-events: auto;
+  opacity: 1;
+}
+.modal3{
+  width: 400px;
+  background-color: white;
+  padding: 30px;
+}
+
+.line{
+  border-bottom: 2px solid red;
+  margin-bottom: 20px;
+}
+
+.no{
+  text-decoration: none;
+  padding: 15px 35px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+.no:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(3px)
+}
+.yes{
+  background-color: green;
+  text-decoration: none;
+  padding: 15px 35px;
+  color: white;
+  margin-left: 10px;
+  border-radius: 7px;
+}
+.yes:active{
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+.decision{
+  display: flex;
+  justify-content: center;
+}
+
+.modal-container4{
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  height: 100%;
+}
+.done{
+  width: 400px;
+  background-color: white;
+  padding: 30px 30px 80px;
+  text-align: center;
+ 
+}
+.back-link{
+  text-decoration: none;
+  background-color: #1363DF;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 7px;
+ transition: 0.6s ease;
+}
+.back-link:hover{
+  background-color: #3AB0FF;
+
+}
+
+.back-div{
+  margin-top: 50px;
+}
+.success-head{
+  margin-top: 40px;
+}
+.check{
+  color: green;
+}
+.modal-container4.showme{
+  pointer-events: auto;
+  opacity: 1;
+}
+
+
+.form-input{
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+ 
+}
+
+
+.red1{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: red;
+  display: none;
+}
+.red1.see1{
+  display: block;
+}
+
+.green1{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: green;
+  display: none;
+}
+.green1.look1{
+  display: block;
+}
+
+.red2{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: red;
+  display: none;
+}
+.red2.see2{
+  display: block;
+}
+
+.green2{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: green;
+  display: none;
+}
+.green2.look2{
+  display: block;
+}
+
+.red3{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: red;
+  display: none;
+}
+.red3.see3{
+  display: block;
+}
+
+.green3{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: green;
+  display: none;
+}
+.green3.look3{
+  display: block;
+}
+
+.red4{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: red;
+  display: none;
+}
+.red4.see4{
+  display: block;
+}
+
+.green4{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: green;
+  display: none;
+}
+.green4.look4{
+  display: block;
+}
+
+.red5{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: red;
+  display: none;
+}
+.red5.see5{
+  display: block;
+}
+
+.green5{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: green;
+  display: none;
+}
+.green5.look5{
+  display: block;
+}
+
+.red6{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: red;
+  display: none;
+}
+.red6.see6{
+  display: block;
+}
+
+.green6{
+  position: absolute;
+  right: 10px;
+  top: 28px;
+  color: green;
+  display: none;
+}
+.green6.look6{
+  display: block;
+}
+
+#error-msg1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: red;
+}
+
+#error-msg2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: red;
+}
+
+#error-msg3{
+  position: absolute;
+  left: 0;
+  bottom: 18px;
+  color: red;
+}
+
+#error-msg4{
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  color: red;
+}
+
+#error-msg5{
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+  color: red;
+}
+
+#error-msg6{
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  color: red;
+}
+
